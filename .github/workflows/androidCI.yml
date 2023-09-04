@@ -28,3 +28,5 @@ jobs:
       uses: actions/upload-artifact@v3.1.2
       with:
         name: Debug-Apk
+        path: app/build/outputs/apk/debug/app-debug.apk
+        if-no-files-found: error
